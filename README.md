@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # desafio_pokeguia
 
 ## Project setup
@@ -22,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# PokedexVueCli
+Ejercicio (Desafío Curso) "Pokedex realizada con Vue-Cli
+>>>>>>> c06951e84dd70f3e62ad0fc04afad7357822d005

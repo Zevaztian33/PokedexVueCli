@@ -1,9 +1,5 @@
 <<<<<<< HEAD
 <img src="./src/assets/muestra.png">
-=======
-<img src="./src/assets/Imagen de imagen2.png">
-(imagen de muestra)
->>>>>>> dfeda9f75b824912cea591beb218ccc6e5a06b79
 # desafio_pokeguia
 
 ## Project setup

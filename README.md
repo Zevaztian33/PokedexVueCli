@@ -1,4 +1,4 @@
-<img src="./src/assets/Imagen de muestra.png">
+<img src="./src/assets/Imagen de imagen.png">
 # desafio_pokeguia
 
 ## Project setup

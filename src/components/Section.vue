@@ -23,7 +23,9 @@
                 <div>N° Id: {{getNum}}</div>
                     <hr>
                 <div>Tipo:
-                    <p class="mt-2 poke-info pokeType" v-for="(types, index) in getTipo" :key="index">{{ types.type.name }}</p>
+                    <div class="pb-1 d-inline-block" id="types" v-for="(poke,index) in getTipo" :key="index">
+                        <div class="pokeType poke-info" :class="[poke.type.name]">{{poke.type.name}}</div>
+                    </div>
                 </div>
                     <hr>
                 <div>Peso: {{getPeso}} kls. / Altura: {{getAltura}} mts.</div>
@@ -242,5 +244,77 @@
     margin: 5px;
     font-weight: 700;
 }
+
+.normal {
+    background-color: #a8a878;
+  }
+
+  .grass {
+    background-color: #78c850;
+  }
+
+  .ground {
+    background-color: #e0c068;
+  }
+
+  .fighting {
+    background-color: #c03028;
+  }
+
+  .rock {
+    background-color: #b8a038;
+  }
+
+  .steel {
+    background-color: #b8b8d0;
+  }
+
+  .fire {
+    background-color: #f08030;
+  }
+
+  .electric {
+    background-color: #f8d030;
+  }
+
+  .flying {
+    background-color: #a890f0;
+  }
+
+  .psychic {
+    background-color: #f85888;
+  }
+
+  .bug {
+    background-color: #a8b820;
+  }
+
+  .dragon {
+    background-color: #7038f8;
+  }
+
+  .water {
+    background-color: #6890f0;
+  }
+
+  .ice {
+    background-color: #98d8d8;
+  }
+
+  .poison {
+    background-color: #a040a0;
+  }
+
+  .dark {
+    background-color: #705848;
+  }
+
+  .ghost {
+    background-color: #705898;
+  }
+
+  .fairy {
+    background-color: #ffaec9;
+  }
 
 </style>
